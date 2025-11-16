@@ -21,7 +21,6 @@ const getSum = () => {
 
     // Test expects id="ans"
     newCell.id = "ans";
-    newCell.colSpan = 2;
     newCell.textContent = total;
 
     newRow.appendChild(newCell);
