@@ -13,12 +13,7 @@ const getSum = () => {
     });
 
     const table = document.querySelector("table");
-
-    // If #ans already exists, remove the old row
-    const oldAns = document.getElementById("ans");
-    if (oldAns) {
-        oldAns.parentElement.remove();
-    }
+    
 
     // Create new row
     const newRow = document.createElement("tr");
